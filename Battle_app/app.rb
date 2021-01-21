@@ -2,6 +2,10 @@ require 'sinatra/base'
 
 class Battle_app < Sinatra::Base
 
+get "/1" do
+  "Testing infrastructure working!"
+end 
+
 get '/' do
   erb(:index)
 end
